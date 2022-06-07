@@ -18,20 +18,28 @@
         <form action="">
             <label for="">Monto</label>
             <br>
-            <input type="number">
+            <input type="number" id="input_monto">
             <br>
             <label for="">Nro de Cuotas</label>
             <br>
-            <input type="number">
+            <input type="number" id="input_nro_cuotas">
             <br>
             <label for="">Tasa de interes</label>
             <br>
-            <input type="number">
+            <input type="number" id="input_tasa">
             <br>
             <label for="">Couta a cancelar</label>
             <br>
-            <input type="number">
+            <input type="number" id="input_x_cuota">
+            <br>
+            <br>
+            <input class="btn btn-primary" type="button" value="Calcular" onclick="calcular()"> <br><br><br>
+            <label for="">Para la cuota N°: </label><br>
+            <input type="number" name="" id="x_cuota" disabled ><br>
+            <label for="">El capital adeudado es: </label><br>
+            <input type="number" name="" id="Resultado" disabled ><br>
 
+            <script src="siste.js"></script>
         </form>
     </section>
     
